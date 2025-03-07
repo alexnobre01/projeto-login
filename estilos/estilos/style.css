@@ -61,11 +61,77 @@ section#login>div#formulario {
     padding: 10px;
 }
 
-div#formulario{
+div#formulario {
     text-align: center;
     margin-bottom: 10px;
 }
 
-div > p{
+div>p {
     font-size: 0.8em;
+}
+
+.campo {
+    background-color: #5f2c82;
+    border-radius: 5px;
+    height: 40px;
+    margin: 5px 0px;
+
+}
+
+label {
+    display: none;
+}
+
+#iLogin{
+border-radius: 5px;
+}
+
+#iSenha{
+    border-radius: 5px;
+    }
+
+input{
+    width: 85%;
+    height: 80%;
+}
+
+form>input[type=submit] {
+    display: block;
+    background-color: #49a09d;
+    color: aliceblue;
+    font-size: 1em;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+form>input[type=submit]:hover {
+    background-color: #275857;
+}
+
+form>input[type=submit]:active {
+    background-color: #183534;
+}
+
+.botaoEsqueci {
+    border: 1px solid #275857;
+    display: block;
+    font-size: 1em;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #183534;
+    padding: 5px;
+    margin: 5px 0px;
+    cursor: pointer;
+
+}
+
+.botaoEsqueci:hover {
+    background-color: #49a09d;
 }
