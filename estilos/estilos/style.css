@@ -36,7 +36,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+   
     background-color: white;
     width: 260px;
     height: 500px;
@@ -46,6 +46,7 @@ section#login {
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login>div#imagem {
@@ -78,21 +79,39 @@ div>p {
 
 }
 
+
+
 label {
     display: none;
 }
 
-#iLogin{
-border-radius: 5px;
+#iLogin {
+    border-radius: 5px;
+    transform: translatey(-6.9px);
+    background-color: #9ae4e1;
 }
 
-#iSenha{
+#iSenha {
     border-radius: 5px;
-    }
+    transform: translatey(-6.9px);
+    background-color: #9ae4e1;
+}
 
-input{
+#iLogin:focus-within{
+    background-color: aliceblue;
+}
+
+#iSenha:focus-within{
+    background-color: aliceblue;
+}
+div.campo {
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+input {
     width: 85%;
-    height: 80%;
+    height: 95%;
 }
 
 form>input[type=submit] {

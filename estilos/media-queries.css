@@ -9,6 +9,7 @@
 
     section#login{
         width: 80vw;
+        height: 350px;
         
     }
 
@@ -20,8 +21,10 @@
     section#login > div#formulario{
         float: right;
         width: 70%;
+        margin: 30px 0px;
      
     }
+
 }
 
 @media  screen and (min-width: 950px) {
@@ -32,6 +35,8 @@
 
     section#login{
         width: 990px;
+        height: 350px;
+        
     }
 
     section#login > div#imagem{
